@@ -1,5 +1,5 @@
 from flask import Flask
-from models import db, generate_models
+from models.db_blueprint import db, generate_models
 
 def create_app():
     app = Flask(__name__)
