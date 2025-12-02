@@ -1,6 +1,6 @@
 import json
 from datetime import datetime
-from Flask_SQLAlchemy import SQLAlchemy
+from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import Column, Integer, String, Float, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 from sqlalchemy.orm import clear_mappers
